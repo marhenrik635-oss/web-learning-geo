@@ -1066,4 +1066,909 @@ export const OSN_QUESTIONS: Question[] = [
     trapExplanation:
       'Vegetasi hijau tampak hijau hanya pada citra True Color (warna asli 3-2-1). Pada Standard False Color (4-3-2), vegetasi PASTI berwarna merah!',
   },
+  // --- 45 SOAL TAMBAHAN DARI PAKET 47 HALAMAN ARSIP LENGKAP OSN/KSR GEOGRAFI ---
+  {
+    id: 'q56',
+    moduleId: 'meteorologi-klimatologi',
+    ksrCategory: 'Meteorologi dan Klimatologi',
+    difficulty: 'Provinsi',
+    question:
+      'Sirkulasi udara meridional berskala global di atmosfer troposfer tersusun atas tiga sel sirkulasi utama di masing-masing belahan bumi. Urutan ketiga sel tersebut dari daerah ekuator menuju kutub adalah...',
+    options: [
+      'Sel Hadley -> Sel Ferrel -> Sel Polar',
+      'Sel Ferrel -> Sel Hadley -> Sel Polar',
+      'Sel Polar -> Sel Ferrel -> Sel Hadley',
+      'Sel Hadley -> Sel Polar -> Sel Ferrel',
+      'Sel Walker -> Sel Hadley -> Sel Polar',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Di setiap belahan bumi (utara dan selatan), sirkulasi atmosfer meridional terbagi menjadi 3 sel: 1. Sel Hadley (0°-30° Lintang: konveksi ekuator naik dan subsiden di subtropis membentuk gurun), 2. Sel Ferrel (30°-60° Lintang: sel tidak langsung berarah berlawanan), dan 3. Sel Polar (60°-90° Lintang: udara dingin kutub turun dan menyebar ke lintang sedang).',
+    trapExplanation:
+      'Sel Walker bukan sirkulasi meridional lintang, melainkan sirkulasi zonal khatulistiwa (timur-barat) di sepanjang Samudra Pasifik.',
+  },
+  {
+    id: 'q57',
+    moduleId: 'geologi',
+    ksrCategory: 'Geologi dan Tektonisme',
+    difficulty: 'Provinsi',
+    question:
+      'Pada bentang alam vulkanik tua yang terbentuk oleh letusan eksplosif (piroklastik kaya gas dan silika), kenampakan geologis berikut dapat dijumpai, KECUALI...',
+    options: [
+      'Plato lava basaltik yang luas dan mendatar',
+      'Kaldera runtuhan yang sangat luas',
+      'Stratovulkano dengan lapisan perselingan piroklastik dan lava',
+      'Danau kawah vulkanik (maar atau kaldera lake)',
+      'Lapisan endapan tefra dan ignimbrit tebal',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Plato lava (misal Dataran Tinggi Deccan atau Columbia River Basalt) terbentuk dari erupsi EFUSIF celah linier dengan magma basaltis sangat encer (viskositas rendah, miskin silika) yang mengalir bebas membentuk hamparan luas, BUKAN dari erupsi eksplosif.',
+    trapExplanation:
+      'Kaldera, danau kawah, endapan tefra, dan kerucut strato merupakan ciri khas manifestasi erupsi eksplosif.',
+  },
+  {
+    id: 'q58',
+    moduleId: 'geologi',
+    ksrCategory: 'Geologi dan Tektonisme',
+    difficulty: 'Kabupaten',
+    question:
+      'Jika dibandingkan dengan kerak benua, karakteristik fisik dan petrologis dari kerak samudera adalah...',
+    options: [
+      'Lebih tipis (ketebalan 6-10 km) dan memiliki densitas lebih tinggi (~3.0 g/cm3)',
+      'Lebih tebal (ketebalan 35-70 km) dan memiliki densitas lebih rendah (~2.7 g/cm3)',
+      'Lebih tipis (ketebalan 6-10 km) namun memiliki densitas lebih rendah (~2.2 g/cm3)',
+      'Tersusun dominan oleh batuan granit asam yang kaya silika-aluminium (SiAl)',
+      'Memiliki umur batuan jauh lebih tua (>1.500 juta tahun) dibanding batuan benua',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Kerak samudera (SiMa) rata-rata hanya memiliki ketebalan 6-10 km namun sangat padat dan berat (densitas ~3.0 g/cm3) karena tersusun oleh batuan mafik basaltis kaya besi-magnesium. Sebaliknya kerak benua tebal (35-70 km) namun lebih ringan (densitas ~2.7 g/cm3) karena bersifat granitis asam.',
+    trapExplanation:
+      'Kerak samudera berumur sangat muda (<200 juta tahun) karena terus dihancurkan di zona subduksi dan diperbarui di MOR, beda dengan benua yang abadi.',
+  },
+  {
+    id: 'q59',
+    moduleId: 'geologi',
+    ksrCategory: 'Geologi dan Tektonisme',
+    difficulty: 'Kabupaten',
+    question:
+      'Dalam merumuskan hipotesis Continental Drift (Apungan Benua) pada tahun 1912, Alfred Wegener mengajukan berbagai bukti empiris, KECUALI...',
+    options: [
+      'Penyebaran artefak budaya peradaban manusia purba yang identik di pesisir seberang samudra',
+      'Kecocokan garis kontur pesisir barat Afrika dan timur Amerika Selatan',
+      'Kesamaan formasi batuan dan deretan pegunungan Appalachian di Amerika Utara dengan pegunungan Caledonian di Skotlandia',
+      'Penemuan fosil reptil air tawar Mesosaurus dan flora Glossopteris yang tersebar di benua selatan (Gondwana)',
+      'Bukti endapan glasiasi purba (tillite Permo-Karbon) di wilayah tropis seperti India, Brasil, dan Afrika',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Peradaban manusia dan manusia purba baru muncul pada Zaman Kuarter (kurang dari 2-3 juta tahun lalu), sedangkan superbenua Pangea pecah sejak masa Mesozoikum (sekitar 200 juta tahun lalu). Wegener murni mengandalkan bukti geologi, paleontologi (fosil hewan/tanaman purba), dan paleoklimatologi glasial.',
+    trapExplanation:
+      'Jangan sampai memilih bukti fosil atau glasiasi; kedua bukti tersebut adalah pilar utama teori Wegener.',
+  },
+  {
+    id: 'q60',
+    moduleId: 'geologi',
+    ksrCategory: 'Geologi dan Tektonisme',
+    difficulty: 'Provinsi',
+    question:
+      'Rangkaian Pegunungan Bukit Barisan dan busur kepulauan vulkanik aktif di sepanjang Pulau Sumatra terbentuk sebagai akibat dari...',
+    options: [
+      'Konvergensi subduksi menyudut (oblique subduction) Lempeng Indo-Australia yang menunjam ke bawah Lempeng Eurasia',
+      'Pemekaran batas divergen di Cekungan Busur Belakang Sumatra',
+      'Aktivitas transform murni tanpa keterlibatan pelelehan magma astenosfer',
+      'Pengangkatan isostatik blok batuan granitis purba Pra-Tersier',
+      'Tabrakan kolisi benua-benua (continent-continent collision) antara Paparan Sunda dan Sahul',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Subduksi Lempeng Samudera Indo-Australia ke bawah Lempeng Benua Eurasia membentuk palung Sunda, zona Benioff, busur magmatik (Bukit Barisan), serta menghasilkan gaya geser lateral yang melahirkan Sesar Besar Sumatra (Great Sumatran Fault / Sesar Semangko).',
+    trapExplanation:
+      'Sumatra bukanlah zona kolisi benua-benua (seperti Himalaya), melainkan subduksi samudera-benua dengan karakteristik penunjaman miring (oblique).',
+  },
+  {
+    id: 'q61',
+    moduleId: 'geologi',
+    ksrCategory: 'Geologi dan Tektonisme',
+    difficulty: 'Kabupaten',
+    question:
+      'Batuan beku intrusif plutonik (seperti Granit, Diodit, dan Gabro) memiliki tekstur kristal yang khas berupa...',
+    options: [
+      'Faneritik (mineral kristal berbutir kasar terlihat jelas) dan non-vesikular padat',
+      'Afanitik (butiran mineral sangat halus mikroskopis) akibat pendinginan kilat',
+      'Vesikular berlubang-lubang akibat pelepasan gas magma di permukaan bumi',
+      'Amorf atau gelas vulkanik tanpa struktur kristal atom teratur',
+      'Piroklastik dengan susunan fragmen breksi dan abu vulkanik lepas',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Magma yang membeku jauh di bawah permukaan bumi (intrusif plutonik) terisolasi oleh lapisan batuan di atasnya sehingga proses pendinginan berlangsung sangat lambat (ribuan hingga jutaan tahun). Hal ini memberi waktu bagi ion-ion mineral untuk tumbuh membentuk kristal berukuran besar dan kasar (tekstur faneritik).',
+    trapExplanation:
+      'Tekstur afanitik, vesikular (batu apung), dan gelas (obsidian) adalah ciri khas batuan beku ekstrusif (luar/vulkanik), bukan intrusif.',
+  },
+  {
+    id: 'q62',
+    moduleId: 'sumberdaya',
+    ksrCategory: 'Sumberdaya dan Manajemen Sumberdaya',
+    difficulty: 'Kabupaten',
+    question:
+      'Batu bara merupakan sumber energi fosil yang melimpah di Pulau Sumatra dan Kalimantan. Secara petrologi, batu bara diklasifikasikan sebagai...',
+    options: [
+      'Batuan sedimen organik yang terbentuk dari dekomposisi anaerobik tumpukan vegetasi purba di lingkungan rawa gambut',
+      'Batuan sedimen klastik hasil rombakan batuan beku kaya silika',
+      'Batuan metamorf kontak akibat pemanasan magma andesitik',
+      'Batuan sedimen kimiawi hasil presipitasi mineral kalsit di laut dangkal',
+      'Batuan beku luar yang mengalami karbonisasi suhu rendah',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Batu bara adalah batuan sedimen biogenik/organik yang berasal dari serpihan vegetasi tanaman purba (tumbuhan paku rawa dll) yang terakumulasi di rawa anaerob (tanpa oksigen), mengalami pembusukan sebagian membentuk gambut (peat), lalu terkubur dan mengalami kenaikan suhu dan tekanan menjadi lignit, sub-bituminus, bituminus, hingga antrasit.',
+    trapExplanation:
+      'Batu bara bukan batuan metamorf murni, kecuali untuk antrasit kualitas tertinggi yang mengalami metamorfisme dinamo-termal tingkat lanjut.',
+  },
+  {
+    id: 'q63',
+    moduleId: 'oseanografi-hidrologi',
+    ksrCategory: 'Oseanografi dan Hidrologi',
+    difficulty: 'Kabupaten',
+    question:
+      'Pada peta topografi kontur suatu Daerah Aliran Sungai (DAS), kecepatan aliran air sungai permukaan akan mencapai nilai tertinggi pada segmen di mana...',
+    options: [
+      'Garis-garis kontur ketinggian saling berhimpitan sangat rapat (gradien kemiringan lereng sangat curam)',
+      'Garis-garis kontur ketinggian berjarak sangat renggang dan lebar',
+      'Sungai mulai memasuki dataran aluvial rendah mendekati garis pantai',
+      'Pola sungai berubah menjadi teranyam (braided stream) di delta muara',
+      'Lebar penampang sungai mengalami perluasan maksimal di zona hilir',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Kecepatan aliran air sebanding dengan gradien hidrolik/kemiringan lereng sungai. Pada peta topografi, kontur yang berjarak sangat rapat menandakan kenaikan atau penurunan elevasi yang sangat terjal dalam jarak horizontal pendek, menghasilkan energi potensial gravitasi dan kecepatan arus air paling deras.',
+    trapExplanation:
+      'Kontur renggang menandakan dataran landai di mana air mengalir lambat dan mengalami sedimentasi.',
+  },
+  {
+    id: 'q64',
+    moduleId: 'kebencanaan',
+    ksrCategory: 'Kebencanaan dan Manajemen Bencana',
+    difficulty: 'Kabupaten',
+    question:
+      'Dalam tahapan siklus manajemen penanggulangan bencana, tindakan yang menjadi prioritas utama pada Fase Tanggap Darurat (Emergency Response Phase) saat bencana sedang terjadi adalah...',
+    options: [
+      'Penyelamatan jiwa (SAR), evakuasi pengungsi, pertolongan medis, dan pemenuhan kebutuhan logistik dasar',
+      'Penyusunan peta zonasi Kawasan Rawan Bencana (KRB) dan tata ruang wilayah',
+      'Pembangunan tanggul pencegah abrasi dan pemecah gelombang laut',
+      'Pembangunan kembali fasilitas umum permanen dengan standar anti-gempa (rekonstruksi)',
+      'Pemulihan kondisi psikologis korban trauma pascabencana (trauma healing)',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Tanggap darurat difokuskan pada upaya penyelamatan nyawa korban sesaat setelah bencana melanda: operasi SAR, evakuasi ke tempat aman, penyediaan air bersih, makanan, tenda darurat, dan perawatan luka korban.',
+    trapExplanation:
+      'Zonasi KRB adalah mitigasi pra-bencana; rekonstruksi fisik dan trauma healing adalah fase rehabilitasi pasca-bencana.',
+  },
+  {
+    id: 'q65',
+    moduleId: 'geomorfologi',
+    ksrCategory: 'Geomorfologi dan Dinamika Bentang Alam',
+    difficulty: 'Provinsi',
+    question:
+      'Hantaman gelombang laut yang terus-menerus mengikis dasar tebing pantai terjal (cliff) pada zona pasang surut akan membentuk cekungan torehan takik yang disebut wave-cut notch. Jika tebing atasnya runtuh dan proses ini berulang, akan terbentuk dataran abrasi pantai mendatar yang disebut...',
+    options: [
+      'Wave-cut platform',
+      'Tombolo',
+      'Spit barrier',
+      'Barrier reef',
+      'Estuarium',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Wave-cut platform adalah teras batuan datar atau undak abrasi di dasar tebing laut yang tersingkap saat surut, terbentuk dari mundurnya garis tebing (cliff retreat) akibat erosi hantaman gelombang ombak secara terus-menerus.',
+    trapExplanation:
+      'Tombolo dan spit adalah bentang alam DEPOSISI marin (sedimentasi pasir), bukan hasil abrasi tebing.',
+  },
+  {
+    id: 'q66',
+    moduleId: 'lingkungan-sdgs',
+    ksrCategory: 'Lingkungan dan Pembangunan Berkelanjutan',
+    difficulty: 'Kabupaten',
+    question:
+      'Bioma Tundra Arktik yang berada di sekitar lingkar kutub utara memiliki karakteristik pembatas ekologis paling menonjol berupa...',
+    options: [
+      'Adanya lapisan tanah beku abadi (permafrost) yang mencegah perakaran pohon berkayu sehingga hanya ditumbuhi lumut dan semak kerdil',
+      'Curah hujan yang sangat tinggi sepanjang tahun disertai badai konvektif lebat',
+      'Kepadatan tajuk pohon berkanopi rapat dengan tingkat stratifikasi vegetasi kompleks',
+      'Suhu tanah yang hangat akibat aktivitas panas bumi geotermal di seluruh kawasan',
+      'Ketiadaan cahaya matahari total selama 12 bulan penuh tanpa henti',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Permafrost adalah lapisan tanah bawah permukaan yang membeku permanen pada suhu 0°C selama dua tahun atau lebih. Lapisan beku ini menghalangi perakaran dalam dan drainase air, sehingga vegetasi tundra terbatas pada lumut kerak (lichen), lumut daun (mosses), rumput teki, dan semak kerdil.',
+    trapExplanation:
+      'Tundra memiliki presipitasi tahunan yang sangat rendah (mirip gurun dingin), bukan curah hujan tinggi!',
+  },
+  {
+    id: 'q67',
+    moduleId: 'kependudukan',
+    ksrCategory: 'Kependudukan dan Dinamika Demografi',
+    difficulty: 'Provinsi',
+    question:
+      'Sebagian besar negara maju di kawasan Eropa Barat dan Utara (seperti Jerman, Swiss, dan Swedia) memiliki piramida penduduk tipe konstruktif (stasioner menuju menyusut). Ciri utama dari struktur piramida ini adalah...',
+    options: [
+      'Porsi kelompok usia anak-anak (0-14 tahun) lebih kecil dibanding kelompok usia dewasa dan manula akibat tingkat kelahiran yang sangat rendah',
+      'Porsi kelompok balita sangat melimpah melebar di bagian dasar piramida',
+      'Angka kematian bayi (IMR) sangat tinggi melampaui angka kelahiran',
+      'Bentuk piramida menyerupai segitiga limas runcing dengan lereng terjal',
+      'Rasio ketergantungan (dependency ratio) bernilai di atas 90',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Piramida konstruktif (berbentuk guci/nisan) menyempit tajam di bagian dasar karena tingkat kelahiran menurun drastis di bawah replacement level (TFR rendah) dan penduduk usia harapan hidup tinggi, memicu tantangan penuaan populasi (aging population).',
+    trapExplanation:
+      'Bentuk segitiga melebar di dasar adalah piramida ekspansif khas negara berkembang dengan kelahiran tinggi.',
+  },
+  {
+    id: 'q68',
+    moduleId: 'geografi-ekonomi',
+    ksrCategory: 'Geografi Ekonomi dan Globalisasi',
+    difficulty: 'Provinsi',
+    question:
+      'Menurut Teori Keunggulan Komparatif (Comparative Advantage) yang dicetuskan oleh David Ricardo, perdagangan internasional akan saling menguntungkan kedua negara jika masing-masing negara...',
+    options: [
+      'Berspesialisasi memproduksi dan mengekspor komoditas yang memiliki biaya peluang (opportunity cost) relatif paling rendah',
+      'Memiliki keunggulan absolut mutlak dalam seluruh efisiensi biaya produksi barang',
+      'Menerapkan proteksionisme tarif impor secara agresif untuk menutup pasar domestik',
+      'Hanya mengandalkan ekspor bahan mentah tak terbarukan ke negara tetangga',
+      'Mematok nilai tukar mata uang secara tetap tanpa mengikuti mekanisme pasar',
+    ],
+    correctIndex: 0,
+    explanation:
+      'David Ricardo membuktikan bahwa meskipun suatu negara kalah efisien secara absolut dalam segala hal dibanding negara maju, kedua negara tetap dapat untung dari perdagangan jika masing-masing fokus memproduksi barang dengan biaya peluang (opportunity cost) terkecil.',
+    trapExplanation:
+      'Keunggulan absolut (absolute advantage) adalah teori Adam Smith, bukan David Ricardo.',
+  },
+  {
+    id: 'q69',
+    moduleId: 'geografi-ekonomi',
+    ksrCategory: 'Geografi Ekonomi dan Globalisasi',
+    difficulty: 'Kabupaten',
+    question:
+      'Dalam Teori Lokasi Industri Alfred Weber, penentuan lokasi pabrik didasarkan pada Indeks Material (IM). Pabrik pengolahan yang memiliki nilai IM < 1 (Weight-Gaining Industry) secara rasional paling ideal didirikan di...',
+    options: [
+      'Dekat dengan wilayah pasar konsumen (Market-oriented location)',
+      'Dekat dengan lokasi sumber bahan mentah (Raw material-oriented location)',
+      'Tepat di tengah-tengah antara sumber bahan baku dan pasar tanpa memandang biaya',
+      'Di kawasan pelabuhan terpencil tanpa akses jaringan distribusi',
+      'Di wilayah dengan upah buruh tertinggi di kawasan industri',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Indeks Material (IM) = Berat Bahan Baku Mentah / Berat Produk Jadi. Jika IM < 1, produk jadi memiliki bobot lebih berat atau volume lebih besar (misal industri minuman botol yang menambah air di pabrik, perakitan mobil, atau pabrik roti). Mengangkut produk jadi lebih mahal, sehingga pabrik harus mendekat ke pasar.',
+    trapExplanation:
+      'Jika IM > 1 (Weight-Losing, misal peleburan tembaga atau semen), barulah pabrik didirikan dekat bahan mentah.',
+  },
+  {
+    id: 'q70',
+    moduleId: 'kependudukan',
+    ksrCategory: 'Kependudukan dan Dinamika Demografi',
+    difficulty: 'Kabupaten',
+    question:
+      'Indonesia diprediksi berada pada puncak Bonus Demografi pada dekade 2020-2035. Indikator kuantitatif utama yang menandai terjadinya bonus demografi adalah...',
+    options: [
+      'Rasio Ketergantungan (Dependency Ratio) berada di titik terendah, yaitu di bawah 50 per 100 penduduk usia produktif',
+      'Tingkat pengangguran terbuka mencapai angka nol persen',
+      'Jumlah penduduk lansia di atas 65 tahun melampaui jumlah angkatan kerja muda',
+      'Angka migrasi keluar internasional (emigrasi) melampaui angka migrasi masuk',
+      'Total Fertility Rate (TFR) mengalami lonjakan tajam di atas 4 anak per wanita',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Bonus demografi tercapai saat proporsi penduduk usia kerja produktif (15-64 tahun) mencapai porsi terbesar (>68%), sehingga setiap 100 orang usia produktif hanya menanggung beban kurang dari 50 orang non-produktif (anak-anak dan lansia).',
+    trapExplanation:
+      'Bonus demografi adalah fenomena struktur umur penduduk, bukan jaminan otomatis nol pengangguran tanpa persiapan lapangan kerja.',
+  },
+  {
+    id: 'q71',
+    moduleId: 'pariwisata',
+    ksrCategory: 'Pariwisata dan Manajemen Pariwisata',
+    difficulty: 'Provinsi',
+    question:
+      'Stanley Plog mengklasifikasikan kepribadian wisatawan dalam kurva kontinum psikografis. Wisatawan yang memiliki rasa percaya diri tinggi, menyukai petualangan di daerah terpencil yang belum tersentuh pariwisata massal, dan ingin berinteraksi dengan budaya lokal yang otentik dikategorikan sebagai...',
+    options: [
+      'Allocentric (Venturer)',
+      'Psychocentric (Dependable)',
+      'Mid-centric',
+      'Near-psychocentric',
+      'Eco-centric pasif',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Wisatawan Allocentric (Venturer) adalah pionir pelancong yang mandiri, berani mengambil risiko, dan menghindari destinasi wisata komersial yang ramai. Kebalikannya, Psychocentric (Dependable) mencari destinasi yang aman, akrab, serba terencana, dan fasilitasnya lengkap.',
+    trapExplanation:
+      'Mid-centric adalah mayoritas wisatawan umum yang menyukai destinasi populer dengan sedikit sentuhan petualangan ringan.',
+  },
+  {
+    id: 'q72',
+    moduleId: 'geografi-budaya',
+    ksrCategory: 'Geografi Budaya dan Identitas Regional/Pengetahuan Umum',
+    difficulty: 'Kabupaten',
+    question:
+      'Percampuran antara kebudayaan Hindu-Buddha dengan kebudayaan Islam di Jawa yang menghasilkan bentuk atap tumpang pada Masjid Agung Demak dan Menara Kudus merupakan perwujudan dari proses...',
+    options: [
+      'Akulturasi budaya',
+      'Asimilasi mutlak',
+      'Segregasi spasial',
+      'Marginalisasi budaya',
+      'Difusi relokasi paksa',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Akulturasi adalah proses bertemunya dua atau lebih kebudayaan yang berbeda di mana unsur-unsur kebudayaan asing diterima dan diolah ke dalam kebudayaan sendiri tanpa menyebabkan hilangnya unsur kepribadian kebudayaan asli (tampak pada arsitektur Menara Kudus bercorak candi Hindu).',
+    trapExplanation:
+      'Asimilasi menghasilkan peleburan kebudayaan total sehingga ciri khas budaya lama hilang; pada Menara Kudus, ciri Hindu masih sangat kental terlihat.',
+  },
+  {
+    id: 'q73',
+    moduleId: 'geografi-budaya',
+    ksrCategory: 'Geografi Budaya dan Identitas Regional/Pengetahuan Umum',
+    difficulty: 'Provinsi',
+    question:
+      'Tuntutan referendum kemerdekaan dan gerakan separatisme kultural yang pernah bergejolak di Provinsi Québec, Kanada, terutama dipicu oleh perbedaan identitas...',
+    options: [
+      'Bahasa dan tradisi hukum Perancis (Frankofon) di tengah mayoritas warga Kanada yang berbahasa Inggris (Anglofon)',
+      'Sistem ekonomi sosialis yang ditolak oleh pemerintah federal Ottawa',
+      'Keberadaan tambang minyak bumi lepas pantai yang dikuasai oleh suku Indian Inuit',
+      'Perbedaan garis lintang iklim kutub yang memisahkan aktivitas pertanian',
+      'Keanggotaan Québec dalam aliansi militer Uni Eropa',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Québec dijajah oleh Perancis sebelum beralih ke Inggris pada 1763. Mayoritas warganya mempertahankan bahasa Perancis, hukum perdata kontinental, dan tradisi Katolik, sehingga merasa menjadi bangsa tersendiri di dalam konfederasi Kanada yang mayoritas berbahasa Inggris dan Protestan.',
+    trapExplanation:
+      'Isu Québec murni merupakan gesekan etnolinguistik dan budaya sejarah Perancis vs Inggris, bukan sengketa tambang atau iklim.',
+  },
+  {
+    id: 'q74',
+    moduleId: 'geologi',
+    ksrCategory: 'Geologi dan Tektonisme',
+    difficulty: 'Kabupaten',
+    question:
+      'Punggung Tengah Samudra (Mid-Oceanic Ridge / MOR) di dasar Samudra Atlantik merupakan kenampakan relief dasar laut yang terbentuk pada batas lempeng tipe...',
+    options: [
+      'Divergen (Pemekaran dasar laut)',
+      'Konvergen subduksi',
+      'Konvergen kolisi',
+      'Transform sesar mendatar',
+      'Zona sesar geser sinistral',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Batas divergen samudera terjadi saat dua lempeng litosfer saling bergerak menjauh. Celah rekahan yang terbuka memungkinkan magma basaltis dari mantel atas naik, membeku, dan membangun barisan punggungan pegunungan dasar laut (MOR) sekaligus memekarkan lantai samudra.',
+    trapExplanation:
+      'Subduksi konvergen menghasilkan palung laut (trench) dan busur vulkanik, bukan punggungan pemekaran.',
+  },
+  {
+    id: 'q75',
+    moduleId: 'geologi',
+    ksrCategory: 'Geologi dan Tektonisme',
+    difficulty: 'Kabupaten',
+    question:
+      'Pada struktur deformasi lipatan batuan (fold) akibat gaya kompresi tektonik, bagian punggung lipatan yang melengkung ke atas dan bagian lembah lipatan yang melengkung ke bawah berturut-turut dinamakan...',
+    options: [
+      'Antiklin dan Sinklin',
+      'Horst dan Graben',
+      'Hanging Wall dan Foot Wall',
+      'Epirogenesa dan Orogenesa',
+      'Dekstral dan Sinistral',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Antiklin adalah bentuk lipatan cembung ke atas dengan lapisan batuan tertua berada di inti sumbu lipatan; sedangkan Sinklin adalah bentuk lipatan cekung ke bawah dengan lapisan batuan termuda di inti sumbunya.',
+    trapExplanation:
+      'Horst dan Graben adalah morfologi patahan (fault), bukan perlipatan plastis (fold).',
+  },
+  {
+    id: 'q76',
+    moduleId: 'geologi',
+    ksrCategory: 'Geologi dan Tektonisme',
+    difficulty: 'Kabupaten',
+    question:
+      'Pada sistem deformasi sesar normal akibat gaya ekstensi tektonik, blok batuan yang relatif amblas ke bawah membentuk lembah patahan dan blok batuan yang tetap tinggi diapit oleh patahan disebut...',
+    options: [
+      'Graben (Slenk) dan Horst',
+      'Sinklin dan Antiklin',
+      'Escarpment dan Cuesta',
+      'Mesa dan Butte',
+      'Dolina dan Polje',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Gaya tegangan tarikan (ekstensi) menyebabkan retakan sesar turun. Blok kerak yang turun ke bawah di antara dua sesar disebut Graben (Slenk, misal Danau Baikal atau Rhine Graben), sedangkan blok pematang yang terangkat di sampingnya disebut Horst.',
+    trapExplanation:
+      'Jangan tertukar: Graben = lembah amblas, Horst = bukit balok terangkat.',
+  },
+  {
+    id: 'q77',
+    moduleId: 'geologi',
+    ksrCategory: 'Geologi dan Tektonisme',
+    difficulty: 'Provinsi',
+    question:
+      'Karakteristik letusan gunung api (apakah bersifat eksplosif dahsyat atau efusif lelehan) sangat dipengaruhi oleh dua faktor primer pada dapur magma, yaitu...',
+    options: [
+      'Viskositas magma (kandungan silika SiO2) dan tekanan gas volatil yang terlarut',
+      'Ketinggian puncak gunung api dari permukaan laut dan luas kawah',
+      'Curah hujan tahunan di lereng gunung dan ketebalan tanah humus',
+      'Kedalaman palung laut terdekat dan arah mata angin',
+      'Kecepatan angin siklonik di sekitar kepundan gunung api',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Magma asam-intermediet (kaya SiO2) memiliki viskositas sangat kental yang memerangkap gelembung gas volatil (H2O, CO2, SO2). Ketika tekanan gas melebihi kekuatan batuan penyumbat, ledakan dahsyat (eksplosif Plinian/Vulkanian) terjadi. Sebaliknya magma basa miskin silika sangat encer sehingga gas mudah lepas (efusif tipe Hawaii).',
+    trapExplanation:
+      'Faktor eksternal seperti curah hujan hanya memicu letusan freatik atau lahar dingin sekunder, bukan penentu sifat magma primer.',
+  },
+  {
+    id: 'q78',
+    moduleId: 'kebencanaan',
+    ksrCategory: 'Kebencanaan dan Manajemen Bencana',
+    difficulty: 'Kabupaten',
+    question:
+      'Titik pusat pelepasan energi gelombang gempa bumi yang berada di dalam kerak bumi dan titik proyeksi tegak lurusnya di permukaan bumi berturut-turut dinamakan...',
+    options: [
+      'Hiposentrum dan Episentrum',
+      'Episentrum dan Hiposentrum',
+      'Fokus dan Patahan Geser',
+      'Pleistoseista dan Homoseista',
+      'Makroseisma dan Mikroseisma',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Hiposentrum (fokus) adalah lokasi sumber rekahan batuan di dalam interior bumi tempat pertama kali gelombang seismik terpancar. Episentrum adalah titik koordinat di permukaan bumi yang tepat tegak lurus berada di atas hiposentrum.',
+    trapExplanation:
+      'Ingat prefiks: "Hipo" = bawah/dalam (di dalam tanah); "Epi" = di atas/permukaan.',
+  },
+  {
+    id: 'q79',
+    moduleId: 'kebencanaan',
+    ksrCategory: 'Kebencanaan dan Manajemen Bencana',
+    difficulty: 'Provinsi',
+    question:
+      'Sebuah stasiun seismograf mencatat gelombang primer (P) suatu gempa tiba pada pukul 08.12.00 WIB dan gelombang sekunder (S) tiba pada pukul 08.16.30 WIB. Berapakah jarak episentrum gempa tersebut dari stasiun pencatat berdasarkan Hukum Laska?',
+    options: [
+      '3.500 km',
+      '4.500 km',
+      '2.500 km',
+      '5.500 km',
+      '1.500 km',
+    ],
+    correctIndex: 0,
+    formulaUsed: 'Delta = ((S - P) - 1 menit) * 1.000 km',
+    explanation:
+      'Selisih waktu S - P = 08.16.30 - 08.12.00 = 4 menit 30 detik (atau 4,5 menit). Masukkan ke Rumus Laska: Delta = ((4,5 - 1) * 1.000 km) = 3,5 * 1.000 km = 3.500 km.',
+    trapExplanation:
+      'Jangan lupa mengurangi 1 menit terlebih dahulu sebelum dikalikan dengan 1.000 km!',
+  },
+  {
+    id: 'q80',
+    moduleId: 'lingkungan-sdgs',
+    ksrCategory: 'Lingkungan dan Pembangunan Berkelanjutan',
+    difficulty: 'Kabupaten',
+    question:
+      'Metode mekanik konservasi tanah dengan cara memotong lereng bukit menjadi bidang-bidang bertingkat datar berundak untuk menahan limpasan air permukaan dan erosi disebut...',
+    options: [
+      'Terasering (Terracing)',
+      'Strip cropping',
+      'Crop rotation (Rotasi tanaman)',
+      'Mulching (Pemberian mulsa organik)',
+      'Afforestasi kawasan karst',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Terasering adalah rekayasa fisik mekanik pada lahan miring dengan membuat undakan bertangga untuk mengurangi panjang dan kemiringan lereng, memperbesar resapan air tanah (infiltrasi), dan menahan laju erosi tanah lapisan atas (topsoil).',
+    trapExplanation:
+      'Strip cropping, rotasi tanaman, dan mulsa adalah metode vegetatif/biologis, bukan mekanik fisik.',
+  },
+  {
+    id: 'q81',
+    moduleId: 'lingkungan-sdgs',
+    ksrCategory: 'Lingkungan dan Pembangunan Berkelanjutan',
+    difficulty: 'Provinsi',
+    question:
+      'Membajak dan menanami lahan miring dengan jalur alur yang sejajar mengikuti garis ketinggian (kontur) tanpa memotong lereng tegak lurus dinamakan teknik...',
+    options: [
+      'Contour Plowing (Pengolahan tanah menurut kontur)',
+      'Up-and-down slope tillage',
+      'Windbreak barrier system',
+      'Agroforestri monokultur',
+      'Gully reclamation',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Contour Plowing membajak tanah searah garis kontur horisontal sehingga tiap alur bajakan dan guludan tanah bertindak sebagai bendungan kecil penahan air hujan dan sedimen tanah agar tidak meluncur bebas menuruni lereng.',
+    trapExplanation:
+      'Membajak searah lereng atas-bawah (up-and-down) sangat dilarang karena justru mempercepat pembentukan parit erosi gully.',
+  },
+  {
+    id: 'q82',
+    moduleId: 'meteorologi-klimatologi',
+    ksrCategory: 'Meteorologi dan Klimatologi',
+    difficulty: 'Kabupaten',
+    question:
+      'Berdasarkan Hukum Termal Braak untuk kawasan tropis kepulauan Indonesia, temperatur udara berkurang sekitar 0,61°C setiap kenaikan 100 meter ketinggian. Jika suhu udara di pesisir pantai (0 mdpl) adalah 28°C, berapakah perkiraan suhu udara di puncak Gunung Muria pada ketinggian 1.600 mdpl?',
+    options: [
+      '18,4°C',
+      '22,0°C',
+      '14,2°C',
+      '12,0°C',
+      '16,0°C',
+    ],
+    correctIndex: 0,
+    formulaUsed: 'T = T0 - 0.6 * (h / 100)',
+    explanation:
+      'Kenaikan ketinggian h = 1.600 m. Penurunan suhu = (1.600 / 100) * 0,6°C = 16 * 0,6°C = 9,6°C. Maka suhu di puncak = 28°C - 9,6°C = 18,4°C.',
+    trapExplanation:
+      'Pastikan menghitung penurunan suhu dari ketinggian per 100 meter, jangan langsung mengurangi 28 dengan 16!',
+  },
+  {
+    id: 'q83',
+    moduleId: 'meteorologi-klimatologi',
+    ksrCategory: 'Meteorologi dan Klimatologi',
+    difficulty: 'Kabupaten',
+    question:
+      'Pada suhu 25°C, satu meter kubik udara menampung uap air aktual sebesar 15 gram. Jika kapasitas uap air maksimum udara pada suhu tersebut untuk mencapai kondisi jenuh adalah 20 gram/m3, maka kelembapan relatif (Relative Humidity) udara tersebut adalah...',
+    options: [
+      '75%',
+      '60%',
+      '80%',
+      '85%',
+      '50%',
+    ],
+    correctIndex: 0,
+    formulaUsed: 'RH = (Uap Aktual / Kapasitas Maksimum) * 100%',
+    explanation:
+      'Kelembapan Relatif RH = (15 gram / 20 gram) * 100% = 0,75 * 100% = 75%.',
+    trapExplanation:
+      'Kelembapan absolut adalah berat uap riil (15 g/m3), sedangkan kelembapan relatif selalu dinyatakan dalam persentase kapasitas jenuh.',
+  },
+  {
+    id: 'q84',
+    moduleId: 'meteorologi-klimatologi',
+    ksrCategory: 'Meteorologi dan Klimatologi',
+    difficulty: 'Provinsi',
+    question:
+      'Angin fohn adalah angin jatuh yang bersifat panas dan kering di balik lereng bayangan hujan (leeward) pegunungan. Pasangan nama lokal angin fohn dan daerah terjadinya di Indonesia yang BENAR adalah...',
+    options: [
+      'Angin Gending di Pasuruan, Jawa Timur',
+      'Angin Kumbang di Deli, Sumatra Utara',
+      'Angin Bahorok di Cirebon, Jawa Barat',
+      'Angin Brubu di Biak, Papua',
+      'Angin Wambraw di Makassar, Sulawesi Selatan',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Daftar angin fohn di Indonesia: 1. Angin Gending (Pasuruan & Probolinggo, merusak tanaman tembakau/mangga), 2. Angin Bahorok (Deli, merusak tembakau Deli), 3. Angin Kumbang (Cirebon/Brebes, merusak bawang), 4. Angin Brubu (Makassar), 5. Angin Wambraw (Biak, Papua).',
+    trapExplanation:
+      'Bahorok di Deli, Kumbang di Cirebon, Brubu di Makassar, Wambraw di Biak. Opsi B, C, D, E sengaja disilang pasangannya.',
+  },
+  {
+    id: 'q85',
+    moduleId: 'meteorologi-klimatologi',
+    ksrCategory: 'Meteorologi dan Klimatologi',
+    difficulty: 'Kabupaten',
+    question:
+      'Ketika fenomena anomali iklim El Niño kuat melanda Samudra Pasifik tropis, dampak langsung yang dialami oleh sebagian besar wilayah Indonesia adalah...',
+    options: [
+      'Musim kemarau berkepanjangan, curah hujan merosot drastis, serta meningkatnya risiko kebakaran hutan dan lahan',
+      'Curah hujan melonjak ekstrem memicu banjir bandang dan tanah longsor serentak',
+      'Penurunan drastis temperatur udara di khatulistiwa hingga turun salju',
+      'Peningkatan frekuensi badai tornado fujita di dataran rendah pesisir',
+      'Tenggelamnya seluruh terumbu karang akibat kenaikan mendadak muka air laut 5 meter',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Pada saat El Niño, kolam air hangat Pasifik bergeser ke arah timur mendekati pesisir Peru/Amerika Selatan. Akibatnya sirkulasi Walker melemah, pusat konveksi awan hujan berpindah ke timur, dan wilayah Indonesia mengalami anomali subsiden udara kering dengan penurunan curah hujan yang signifikan.',
+    trapExplanation:
+      'Hujan berlebih dan banjir bandang adalah dampak fenomena sebaliknya, yaitu La Niña.',
+  },
+  {
+    id: 'q86',
+    moduleId: 'kartografi-sig',
+    ksrCategory: 'Hakikat Geografi dan Analisis Ruang',
+    difficulty: 'Kabupaten',
+    question:
+      'Kajian fenomena banjir rob di pesisir Semarang yang menganalisis kombinasi penurunan muka tanah (land subsidence), pasang air laut, serta interaksi alih fungsi ruang pemukiman penduduk ditelaah secara komprehensif menggunakan...',
+    options: [
+      'Pendekatan Kompleks Wilayah (Kombinasi analisis spasial keruangan dan ekologi)',
+      'Pendekatan Keruangan murni tanpa memperhatikan aktivitas manusia',
+      'Pendekatan Kelingkungan murni tanpa memperhatikan pola persebaran ruang',
+      'Prinsip Deskripsi statistik semata',
+      'Konsep Aglomerasi industri',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Pendekatan Kompleks Wilayah (Regional Complex Approach) menggabungkan analisis keruangan (diferensiasi areal lokasi) dengan analisis ekologis (interaksi manusia dengan lingkungannya), sangat ideal untuk fenomena lintas wilayah yang kompleks.',
+    trapExplanation:
+      'Pendekatan Keruangan hanya menyoroti distribusi titik/ruang; Ekologis hanya fokus hubungan organisme-lingkungan.',
+  },
+  {
+    id: 'q87',
+    moduleId: 'kartografi-sig',
+    ksrCategory: 'Kartografi dan Sistem Informasi Geografis',
+    difficulty: 'Kabupaten',
+    question:
+      'Untuk memetakan wilayah Negara Kesatuan Republik Indonesia yang membentang di sepanjang garis khatulistiwa ekuatorial, bidang proyeksi peta yang paling tepat dengan distorsi luas dan bentuk paling minimal adalah...',
+    options: [
+      'Proyeksi Silinder Normal (Cylindrical Projection)',
+      'Proyeksi Kerucut Normal (Conical Projection)',
+      'Proyeksi Azimuthal / Zenital Polar',
+      'Proyeksi Kerucut Transversal',
+      'Proyeksi Azimuthal Gnomonik',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Proyeksi Silinder Normal menyinggung permukaan bumi tepat di sepanjang garis ekuator (khatulistiwa). Oleh karena itu, daerah tropis ekuatorial seperti Indonesia memiliki distorsi skala, sudut, dan bentuk paling kecil ketika dipetakan menggunakan silinder normal.',
+    trapExplanation:
+      'Proyeksi Kerucut cocok untuk lintang sedang 45°, sedangkan Proyeksi Azimuthal cocok untuk daerah kutub.',
+  },
+  {
+    id: 'q88',
+    moduleId: 'meteorologi-klimatologi',
+    ksrCategory: 'Meteorologi dan Klimatologi',
+    difficulty: 'Kabupaten',
+    question:
+      'Lapisan ozon (O3) yang berfungsi menyerap radiasi sinar ultraviolet (UV-B) berbahaya dari matahari sehingga memungkinkan kehidupan berkembang di bumi terkonsentrasi pada lapisan...',
+    options: [
+      'Stratosfer (ketinggian 15-35 km)',
+      'Troposfer (ketinggian 0-12 km)',
+      'Mesosfer (ketinggian 50-85 km)',
+      'Termosfer (ketinggian 85-500 km)',
+      'Eksosfer (ketinggian >500 km)',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Lapisan ozonosfer berada di stratosfer bawah hingga tengah. Penyerapan foton UV oleh molekul ozon melepaskan energi panas yang menyebabkan fenomena inversi termal khas stratosfer (suhu justru naik seiring ketinggian).',
+    trapExplanation:
+      'Di troposfer, ozon permukaan justru bertindak sebagai polutan sekunder beracun (fotokimia smog).',
+  },
+  {
+    id: 'q89',
+    moduleId: 'geomorfologi',
+    ksrCategory: 'Geomorfologi dan Dinamika Bentang Alam',
+    difficulty: 'Kabupaten',
+    question:
+      'Danau tapal kuda (Oxbow lake) yang sering dijumpai di dataran banjir sungai bagian hilir terbentuk melalui mekanisme...',
+    options: [
+      'Erosi lateral dan terpotongnya leher kelokan sungai meander pada saat debit air banjir meluap menerobos jalur lurus baru',
+      'Runtuhnya atap gua kapur di kawasan karst',
+      'Ledakan letusan freatik gunung api di pinggir sungai',
+      'Pergeseran sesar transform horizontal yang membendung aliran air',
+      'Pencairan kantong gletser es bawah tanah di daerah permafrost',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Meander sungai terus mengalami erosi di tebing luar (cut bank) dan deposisi di tebing dalam (point bar), menyebabkan kelokan semakin melingkar mendekat. Saat banjir besar, arus sungai menerobos leher sempit meander mengambil jalur terpendek, meninggalkan kelokan lama terputus membentuk danau oxbow.',
+    trapExplanation:
+      'Oxbow lake adalah murni bentukan fluvial dinamis, bukan tektonik atau karst.',
+  },
+  {
+    id: 'q90',
+    moduleId: 'sumberdaya',
+    ksrCategory: 'Sumberdaya dan Manajemen Sumberdaya',
+    difficulty: 'Provinsi',
+    question:
+      'Zona transisi biogeografis fauna di Indonesia yang memiliki karakteristik endemisme unik dan terisolasi antara Paparan Sunda dan Paparan Sahul dinamakan...',
+    options: [
+      'Zona Wallacea (Kepulauan Wallacea)',
+      'Wilayah Neotropik Sunda',
+      'Bioma Paleartik Tropika',
+      'Zona Dangkalan Maluku',
+      'Cekungan Sahul Timur',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Wallacea (mencakup Sulawesi, Nusa Tenggara, dan Maluku) merupakan zona kepulauan laut dalam yang tidak pernah tersambung ke Benua Asia maupun Australia saat zaman es glasial. Hal ini melahirkan fauna endemik khas peralihan seperti Anoa, Babirusa, Burung Maleo, dan Komodo.',
+    trapExplanation:
+      'Paparan Sunda dihuni fauna Asiatis (gajah, harimau, badak); Paparan Sahul dihuni fauna Australis (kangguru pohon, kasuari, cenderawasih).',
+  },
+  {
+    id: 'q91',
+    moduleId: 'kartografi-sig',
+    ksrCategory: 'Kartografi dan Sistem Informasi Geografis',
+    difficulty: 'Provinsi',
+    question:
+      'Dalam analisis Sistem Informasi Geografis (SIG), fungsi analisis spasial yang paling tepat digunakan untuk menentukan rute evakuasi tercepat mobil ambulans menuju rumah sakit adalah...',
+    options: [
+      'Network Analysis (Analisis Jaringan)',
+      'Buffering (Analisis Jangkauan Radius)',
+      'Overlay Union (Tumpang Susun Poligon)',
+      'Interpolasi Spasial Kriging',
+      'Digital Elevation Model Slicing',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Network Analysis memproses topologi jaringan garis (vektor jalan raya, pipa air, kabel listrik) dengan memperhitungkan jarak tempuh, arah satu arah (one-way), kecepatan rata-rata, dan hambatan kemacetan untuk mencari rute paling optimal (shortest/fastest path).',
+    trapExplanation:
+      'Buffering menghasilkan zona radius melingkar; Overlay menumpuk layer tema peta.',
+  },
+  {
+    id: 'q92',
+    moduleId: 'geografi-kota',
+    ksrCategory: 'Geografi Kota dan Kewilayahan',
+    difficulty: 'Kabupaten',
+    question:
+      'Pola permukiman penduduk di kawasan perdesaan yang rumah-rumahnya berderet memanjang mengikuti alur tanggul sungai, jalur jalan raya protokol, atau garis pantai tergolong ke dalam pola...',
+    options: [
+      'Pola Linier (Memanjang)',
+      'Pola Memusat (Nucleated / Terkonsentrasi)',
+      'Pola Tersebar (Dispersed / Acak)',
+      'Pola Radial Sirkular',
+      'Pola Grid Kotak-kotak',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Pola linier terbentuk karena masyarakat beradaptasi mencari kemudahan akses transportasi (sepanjang jalan raya atau sungai navigasi) atau kemudahan sumber daya melaut (sepanjang garis pantai nelayan).',
+    trapExplanation:
+      'Pola memusat biasanya mengelilingi mata air atau fasilitas bersama; pola tersebar di daerah karst berbukit-bukit terjal.',
+  },
+  {
+    id: 'q93',
+    moduleId: 'oseanografi-hidrologi',
+    ksrCategory: 'Oseanografi dan Hidrologi',
+    difficulty: 'Kabupaten',
+    question:
+      'Menurut Konvensi Hukum Laut Internasional (UNCLOS 1982), batas Zona Ekonomi Eksklusif (ZEE) suatu negara pantai diukur sejauh...',
+    options: [
+      '200 mil laut dari garis pangkal kepulauan terluar',
+      '12 mil laut dari garis pangkal',
+      '24 mil laut dari garis pangkal',
+      '350 mil laut dari batas paparan benua',
+      '100 mil laut dari zona batas surut terendah',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Batas zonasi maritim UNCLOS 1982: Laut Teritorial = 12 mil laut (kedaulatan mutlak penuh); Zona Tambahan = 24 mil laut (fiskal/imigrasi); ZEE = 200 mil laut (hak berdaulat eksplorasi dan eksploitasi SDA hayati & non-hayati).',
+    trapExplanation:
+      'Jangan tertukar antara Laut Teritorial (12 mil) dengan ZEE (200 mil).',
+  },
+  {
+    id: 'q94',
+    moduleId: 'geomorfologi',
+    ksrCategory: 'Geomorfologi dan Dinamika Bentang Alam',
+    difficulty: 'Kabupaten',
+    question:
+      'Bentukan bukit pasir eolian di kawasan gurun yang menyerupai bentuk bulan sabit dengan lereng landai menghadap arah datangnya angin dan dua tanduk meruncing mengarah ke hilir dinamakan...',
+    options: [
+      'Duna Barchan (Barchan Sand Dune)',
+      'Duna Seif (Longitudinal dune)',
+      'Duna Bintang (Star dune)',
+      'Endapan Loess',
+      'Yardang batuan',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Barchan adalah duna pasir sabit asimetris yang terbentuk di daerah dengan pasokan pasir terbatas dan arah hembusan angin konstan searah. Sisi cembung yang landai menghadap angin (windward/stoss), sedangkan dua ujung tanduknya bergerak maju searah tiupan angin di sisi terjal (slipface).',
+    trapExplanation:
+      'Duna seif memanjang sejajar angin; duna bintang terbentuk oleh angin multidireksional yang berputar dari segala arah.',
+  },
+  {
+    id: 'q95',
+    moduleId: 'geografi-pembangunan',
+    ksrCategory: 'Geografi Pembangunan dan Teori Keruangan',
+    difficulty: 'Provinsi',
+    question:
+      'Perbedaan mendasar antara Wilayah Formal (Formal Region) dan Wilayah Fungsional (Nodal Region) dalam perencanaan keruangan adalah...',
+    options: [
+      'Wilayah formal didasarkan pada keseragaman homogenitas kriteria fisik atau sosial tertentu, sedangkan wilayah fungsional didasarkan pada heterogenitas yang terikat oleh jaringan interaksi dan arus simpul pusat',
+      'Wilayah formal selalu memiliki batas administratif yang kabur, sedangkan wilayah fungsional memiliki batas fisik permanen',
+      'Wilayah formal hanya berlaku untuk kawasan perkotaan metropolitan, sedangkan wilayah fungsional khusus pedesaan',
+      'Wilayah formal diatur oleh pasar modal swasta, sedangkan wilayah fungsional diatur oleh undang-undang kehutanan',
+      'Tidak ada perbedaan substansial antara keduanya selain penyebutan nama',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Wilayah Formal (homogen) memiliki kriteria tunggal seragam (misal Wilayah Iklim Af, Kawasan Pertanian Padi Sawah, Pegunungan Karst). Wilayah Fungsional (nodal) bersifat heterogen namun terhubung erat oleh aliran manusia, barang, dan informasi yang memusat ke satu simpul inti (misal Jabodetabekpunjur).',
+    trapExplanation:
+      'Formal bukan berarti kaku resmi secara hukum kenegaraan, melainkan mengacu pada keseragaman atribut (uniformity).',
+  },
+  {
+    id: 'q96',
+    moduleId: 'lingkungan-sdgs',
+    ksrCategory: 'Lingkungan dan Pembangunan Berkelanjutan',
+    difficulty: 'Kabupaten',
+    question:
+      'Prinsip etika antargenerasi dalam konsep Pembangunan Berkelanjutan (Sustainable Development) mengamanatkan bahwa...',
+    options: [
+      'Pemanfaatan sumber daya alam saat ini harus memenuhi kebutuhan generasi masa kini tanpa mengorbankan hak pemenuhan kebutuhan generasi masa depan',
+      'Seluruh eksploitasi mineral tambang bumi harus dihentikan total detik ini juga',
+      'Pembangunan industri manufaktur diutamakan melampaui pelestarian lingkungan hidup demi mengejar pertumbuhan PDB',
+      'Generasi masa depan tidak perlu diperhitungkan karena teknologi masa depan akan menemukan pengganti SDA yang habis',
+      'Hanya negara-negara maju yang berkewajiban menjaga kelestarian keanekaragaman hayati',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Definisi klasik Brundtland Commission (Our Common Future, 1987) menegaskan bahwa pembangunan berkelanjutan adalah pembangunan yang mampu mencukupi kebutuhan generasi sekarang tanpa mengurangi kemampuan generasi yang akan datang untuk memenuhi kebutuhan mereka sendiri.',
+    trapExplanation:
+      'Pembangunan berkelanjutan tidak anti-pembangunan; intinya adalah kesetimbangan pilar ekonomi, sosial, dan lingkungan hidup.',
+  },
+  {
+    id: 'q97',
+    moduleId: 'kependudukan',
+    ksrCategory: 'Kependudukan dan Dinamika Demografi',
+    difficulty: 'Kabupaten',
+    question:
+      'Masalah kependudukan paling mendesak yang dihadapi Indonesia terkait pemerataan pembangunan keruangan adalah...',
+    options: [
+      'Ketimpangan persebaran penduduk yang ekstrem, di mana lebih dari 55% total penduduk terkonsentrasi memadati Pulau Jawa yang hanya mencakup ~7% luas daratan nasional',
+      'Jumlah total penduduk Indonesia yang mengalami penurunan drastis setiap tahunnya',
+      'Rasio jenis kelamin (Sex Ratio) yang sangat tidak seimbang di mana pria 10 kali lipat wanita',
+      'Tingkat urbanisasi yang bernilai nol persen di seluruh provinsi luar Jawa',
+      'Ketiadaan kelompok penduduk usia produktif akibat penuaan populasi ekstrem',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Kepadatan dan persebaran penduduk di Indonesia sangat timpang. Pulau Jawa menampung lebih dari 150 juta jiwa penduduk dengan kepadatan melebihi 1.100 jiwa/km2, sementara pulau-pulau besar kaya SDA seperti Kalimantan, Papua, dan Maluku memiliki kepadatan penduduk yang masih sangat rendah.',
+    trapExplanation:
+      'Jumlah penduduk Indonesia masih terus bertambah (bukan menurun) dengan struktur usia muda yang besar.',
+  },
+  {
+    id: 'q98',
+    moduleId: 'kartografi-sig',
+    ksrCategory: 'Kartografi dan Sistem Informasi Geografis',
+    difficulty: 'Kabupaten',
+    question:
+      'Pada peta topografi terbitan Badan Informasi Geospasial (BIG), interval kontur ketinggian antar dua garis kontur yang berdekatan (Contour Interval / CI) tercatat sebesar 25 meter. Berapakah skala angka dari peta topografi tersebut?',
+    options: [
+      '1 : 50.000',
+      '1 : 25.000',
+      '1 : 100.000',
+      '1 : 250.000',
+      '1 : 10.000',
+    ],
+    correctIndex: 0,
+    formulaUsed: 'Skala = 2.000 * CI',
+    explanation:
+      'Rumus standar kontur interval untuk peta topografi Indonesia adalah: CI = (1 / 2.000) * Penyebut Skala. Maka Penyebut Skala = 2.000 * CI = 2.000 * 25 = 50.000. Jadi skala peta adalah 1 : 50.000.',
+    trapExplanation:
+      'Rumus pengali CI adalah 2.000, bukan 1.000 atau 100!',
+  },
+  {
+    id: 'q99',
+    moduleId: 'kartografi-sig',
+    ksrCategory: 'Kartografi dan Sistem Informasi Geografis',
+    difficulty: 'Kabupaten',
+    question:
+      'Ketika membaca peta topografi, garis-garis kontur yang digambarkan semakin berhimpitan dan saling mendekat satu sama lain mengindikasikan karakteristik medan berupa...',
+    options: [
+      'Lereng medan yang sangat terjal, curam, dan memiliki potensi kerawanan longsor tinggi',
+      'Dataran aluvial yang sangat landai dan datar',
+      'Kawasan cekungan danau air tawar yang tenang',
+      'Peneplain dataran rendah hasil erosi lanjut',
+      'Hutan bakau pesisir pantai berlumpur',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Garis kontur menghubungkan titik-titik dengan elevasi ketinggian yang sama. Jika jarak horizontal antar garis kontur sangat dekat (garis berhimpitan), berarti terjadi perbedaan elevasi vertikal yang sangat curam dalam jarak datar yang sempit (tebing terjal/jurang).',
+    trapExplanation:
+      'Dataran landai justru ditandai oleh garis kontur yang berjauhan / sangat renggang.',
+  },
+  {
+    id: 'q100',
+    moduleId: 'kartografi-sig',
+    ksrCategory: 'Kartografi dan Sistem Informasi Geografis',
+    difficulty: 'Provinsi',
+    question:
+      'Pada sebuah peta kontur pegunungan, terdapat pola garis-garis kontur yang membentuk lekukan huruf "V". Jika ujung lancip huruf "V" tersebut menunjuk ke arah elevasi angka ketinggian yang lebih tinggi, maka bentukan relief alamiah yang digambarkan adalah...',
+    options: [
+      'Lembah aliran sungai (sungai mengalir berlawanan dengan arah lancip "V", yaitu mengalir menuju elevasi rendah)',
+      'Punggungan bukit yang menonjol keluar',
+      'Puncak kerucut gunung api aktif (kawah maar)',
+      'Dataran tinggi plateau horizontal',
+      'Depresi lubang karst tertutup (sinkhole)',
+    ],
+    correctIndex: 0,
+    explanation:
+      'Hukum Rule of V pada kartografi geologi: Garis kontur yang memotong lembah sungai akan membentuk lekukan huruf "V" di mana ujung lancip V SELALU menunjuk ke arah hulu (elevasi lebih tinggi), karena dasar sungai di lembah telah tererosi lebih dalam dibanding lereng sekitarnya.',
+    trapExplanation:
+      'Sebaliknya, jika ujung lancip huruf "V" menunjuk ke arah elevasi LEBIH RENDAH, bentukan tersebut adalah PUNGGUNGAN BUKIT (ridge/spur), bukan lembah sungai!',
+  },
 ];

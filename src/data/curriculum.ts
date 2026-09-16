@@ -50,6 +50,19 @@ export const GEO_MODULES: GeoModule[] = [
         osnTrap:
           'Jebakan KSR: Bulan Lembap (BL 60-100 mm) pada Schmidt-Ferguson TIDAK BOLEH dimasukkan ke dalam perhitungan rumus Q!',
       },
+      {
+        title: 'Sirkulasi Atmosfer Global, Angin Fohn, & Anomali ENSO',
+        content:
+          'Dinamika angin skala global dan lokal nusantara yang menjadi langganan soal OSN Geografi.',
+        keyPoints: [
+          'Tiga Sel Sirkulasi Meridional: Sel Hadley (0°–30° ekuator ke subtropis), Sel Ferrel (30°–60° lintang sedang), dan Sel Polar (60°–90° kutub).',
+          'Hukum Termal Braak: Di wilayah tropis kepulauan, suhu udara turun rata-rata 0.61°C tiap kenaikan 100 m: $T = T_0 - 0.61 \\times (h/100)$.',
+          'Kelembapan Relatif (RH): $RH = (\\text{Uap Aktual} / \\text{Kapasitas Maksimum}) \\times 100\\%$.',
+          'Daftar Angin Fohn Indonesia (Angin Jatuh Panas & Kering): Angin Gending (Pasuruan/Probolinggo), Bahorok (Deli), Kumbang (Cirebon/Brebes), Brubu (Makassar), dan Wambraw (Biak Papua).',
+          'El Niño vs La Niña: El Niño = pelemahan sirkulasi Walker, kolam hangat bergeser ke Pasifik timur, kemarau panjang & kebakaran hutan di Indonesia; La Niña = penguatan monsun basah, curah hujan ekstrem & banjir di Indonesia.',
+        ],
+        mnemonic: 'Fohn: Gending (Jatim), Bahorok (Sumut), Kumbang (Jabar/Jateng), Brubu (Sulsel), Wambraw (Papua).',
+      },
     ],
   },
   {
@@ -583,17 +596,20 @@ export const GEO_MODULES: GeoModule[] = [
           'Mencari Skala dari CI: $\\text{Penyebut Skala} = CI \\times 2.000$.',
           'Kemiringan Lereng (Slope %): $\\text{Slope (\\%)} = \\frac{\\Delta h}{d_{\\text{lapangan}}} \\times 100\\%$.',
           'Jarak Lapangan Sebenarnya: $d = d_{\\text{peta (cm)}} \\times \\text{Penyebut Skala} / 100$ meter.',
+          'Hukum Rule of V\'s: Garis kontur yang memotong lembah sungai akan membentuk lekukan huruf V dengan ujung lancip menunjuk ke hulu (elevasi lebih tinggi). Sebaliknya, ujung V yang menunjuk ke elevasi lebih rendah adalah punggungan bukit (ridge).',
+          'Kerapatan Kontur: Garis kontur yang saling berhimpitan rapat menandakan lereng terjal rawan longsor; garis renggang menandakan dataran landai.',
         ],
         formula: 'CI = (1 / 2000) * Skala | Slope (%) = (Δh / d_lapangan) * 100%',
       },
       {
-        title: 'Sistem Informasi Geografis (SIG) & Data Spasial',
+        title: 'Sistem Informasi Geografis (SIG) & Analisis Spasial',
         content:
           'SIG mengintegrasikan perangkat keras, lunak, dan data untuk menangkap, mengelola, menganalisis, dan menampilkan seluruh bentuk informasi geografis.',
         keyPoints: [
           'Data Vektor: Merepresentasikan fitur bumi berbasis koordinat geometris diskrit: Titik/Point (pohon, sumur, kota), Garis/Line (jalan raya, sungai, kontur), Poligon/Area (danau, batas administrasi provinsi). Keunggulan: resolusi tinggi, batas tegas, file kecil.',
           'Data Raster: Membagi bumi menjadi kisi-kisi sel grid (piksel) teratur di mana setiap piksel menyimpan nilai data (misal: citra satelit Landsat/Sentinel, peta elevasi DEM SRTM). Cocok untuk data kontinu tanpa batas tegas (suhu, elevasi, curah hujan).',
-          'Operasi Geoprocessing SIG: Buffer (membuat zona penyangga radius tertentu di sekitar fitur, misal sempadan sungai 100 m), Overlay (penumpangsusun beberapa layer tematik untuk menentukan kesesuaian lahan).',
+          'Operasi Geoprocessing SIG: Buffer (membuat zona penyangga radius tertentu di sekitar fitur, misal sempadan sungai 100 m), Overlay (penumpangsusun beberapa layer tematik untuk menentukan kesesuaian lahan), Network Analysis (analisis jaringan rute tercepat dan optimasi jalur pipa/jalan).',
+          'Proyeksi Peta: Silinder Normal paling ideal untuk memetakan Indonesia (kawasan khatulistiwa ekuatorial) karena distorsi minimal pada lintang rendah.',
         ],
       },
     ],
