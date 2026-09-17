@@ -5,6 +5,7 @@ import { HelpCircle, CheckCircle2, XCircle, AlertCircle, ArrowRight, RotateCcw, 
 import { OSN_QUESTIONS } from '../../data/questions';
 import { ModuleId, Question } from '../../types/geo';
 import confetti from 'canvas-confetti';
+import QuestionDiagram from './QuestionDiagram';
 
 interface QuizArenaProps {
   onEarnXP: (amount: number) => void;
@@ -185,6 +186,9 @@ export default function QuizArena({ onEarnXP }: QuizArenaProps) {
               </div>
             )}
           </div>
+
+          {/* Visual Diagram for Question */}
+          <QuestionDiagram question={currentQ} />
 
           {/* Options List */}
           <div className="space-y-2.5">

@@ -9,6 +9,7 @@ import HjulstromVisualizer from '../components/visuals/HjulstromVisualizer';
 import CartoContourVisualizer from '../components/visuals/CartoContourVisualizer';
 import AtmosphereVisualizer from '../components/visuals/AtmosphereVisualizer';
 import UrbanSpatialVisualizer from '../components/visuals/UrbanSpatialVisualizer';
+import SectionVisualizer from '../components/visuals/SectionVisualizer';
 import QuizArena from '../components/quiz/QuizArena';
 import MiniGamesHub from '../components/games/MiniGamesHub';
 import FlashcardDeck from '../components/flashcards/FlashcardDeck';
@@ -348,6 +349,13 @@ export default function Home() {
                       </div>
 
                       <p className="text-xs leading-relaxed text-slate-700">{sec.content}</p>
+
+                      {/* Embedded Section Visualizer */}
+                      <SectionVisualizer
+                        moduleId={activeModule.id}
+                        sectionIndex={idx}
+                        sectionTitle={sec.title}
+                      />
 
                       {/* Key Points Bullet List */}
                       <div className="rounded-xl border border-slate-100 bg-slate-50/70 p-4 space-y-2">
